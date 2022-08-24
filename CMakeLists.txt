@@ -3,4 +3,4 @@ project(phone_simulator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(phone_simulator main.cpp)
+add_subdirectory(src)
